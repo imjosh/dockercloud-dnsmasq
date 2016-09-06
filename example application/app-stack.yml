@@ -1,0 +1,4 @@
+app:
+  image: 'yourapplication/image'
+  links:
+    - 'dnsmasq.dnsmasq:dnsmasq'

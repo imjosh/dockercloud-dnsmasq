@@ -1,0 +1,5 @@
+dnsmasq:
+  cap_add:
+    - CAP_NET_ADMIN
+  image: 'imj0sh/dockercloud-dnsmasq'
+  restart: always
